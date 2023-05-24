@@ -34,7 +34,7 @@ pub fn init() -> Menu {
   );
 
   let stay_on_top =
-    CustomMenuItem::new("stay_on_top".to_string(), "Stay On Top");
+    CustomMenuItem::new("stay_on_top".to_string(), "Stay On Top Always");
   let stay_on_top_menu = if app_conf.stay_on_top {
     stay_on_top.selected()
   } else {
